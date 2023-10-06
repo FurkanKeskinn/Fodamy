@@ -1,0 +1,27 @@
+strings:
+  inputs: Fodamy/Resources/Strings
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: Fodamy/Resources/Strings/StringConstants.swift
+      params:
+          publicAccess: public
+
+xcassets:
+  inputs:
+    - Fodamy/Resources/Assets/Icons.xcassets
+    - Fodamy/Resources/Assets/Images.xcassets
+    - Fodamy/Resources/Assets/Colors.xcassets
+  outputs:
+    templateName: swift5
+    output: Fodamy/Resources/Assets/Assets.swift
+    params:
+          publicAccess: public
+      
+fonts:
+  inputs: Fodamy/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: Fodamy/Resources/Fonts/Fonts.swift
+    params:
+        publicAccess: public
