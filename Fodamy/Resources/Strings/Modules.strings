@@ -1,0 +1,11 @@
+/* 
+  Modules.strings
+  Fodamy
+
+  Created by Furkan on 7.11.2023.
+  
+*/
+
+// MARK: - Register
+"RegisterViewController.title" = "Üye Ol";
+"RegisterViewController.bottomText" = "Hesabın mı var?";
